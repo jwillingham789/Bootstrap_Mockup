@@ -1,0 +1,123 @@
+.cover_image {
+  background-image: linear-gradient(rgba(48, 130, 205, 0.6), rgba(48, 130, 205, 0.6)), url("https://unsplash.it/600/400?image=1041");
+  background-size: cover;
+  height: 300px;
+}
+
+.navbar_mod {
+  background-color: transparent;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.cover_text {
+  padding-top: 40px;
+}
+
+.cover_text .cover_text_top {
+  color: white;
+}
+
+.all_comment_buttons {
+  display: flex;
+}
+
+.comment_button_left, .comment_button_middle {
+  flex: 1;
+  display: flex;
+  color: white;
+  margin-right: 5px;
+  box-shadow: 1px 1px 1px black;
+  height: 20px;
+}
+
+.comment_button_left .icon_part_button, .comment_button_middle .icon_part_button {
+  flex: 1;
+  background-color: #5E686F;
+}
+
+.comment_button_left .text_of_button, .comment_button_middle .text_of_button {
+  flex: 4;
+  background-color: #A3B3BF;
+}
+
+.comment_button_right {
+  flex: 1;
+  display: flex;
+  color: white;
+  box-shadow: 1px 1px 1px black;
+}
+
+.comment_button_right .icon_part_button {
+  flex: 1;
+  background-color: #083452;
+}
+
+.comment_button_right .text_of_button {
+  flex: 4;
+  background-color: #106DB3;
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.top_photo_container {
+  flex: 4;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.top_photo_container .first_photo, .top_photo_container .second_photo, .top_photo_container .third_photo, .top_photo_container .fourth_photo {
+  flex: 1;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.above_photo_text {
+  flex: 7;
+}
+
+.photo_text {
+  flex: 1;
+  align-items: flex-end;
+}
+
+.first_photo {
+  background-image: linear-gradient(rgba(48, 130, 205, 0.6), rgba(48, 130, 205, 0.6)), url("https://unsplash.it/200/200?image=1074");
+}
+
+.second_photo {
+  background-image: url("https://unsplash.it/200/200?image=1072");
+  color: white;
+}
+
+.third_photo {
+  background-image: linear-gradient(rgba(48, 130, 205, 0.6), rgba(48, 130, 205, 0.6)), url("https://unsplash.it/200/200?image=1045");
+}
+
+.fourth_photo {
+  background-image: linear-gradient(rgba(48, 130, 205, 0.6), rgba(48, 130, 205, 0.6)), url("https://unsplash.it/200/200?image=1067");
+}
+
+.copyright {
+  flex: 1;
+  background-color: #083452;
+}
+
+@media screen and (min-width: 700px) {
+  .top_photo_container {
+    flex-wrap: nowrap;
+  }
+}
